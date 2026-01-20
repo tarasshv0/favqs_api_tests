@@ -1,12 +1,12 @@
 # FavQs API Test Automation
 
-This project contains automated tests for the FavQs API, structured similarly to the OTT portal API tests.
+This project contains automated tests for the FavQs API.
 
 ## Project Structure
 
 ```
 favqs_api/
-├── requests/              # API request classes
+├── api/              # API request classes
 │   ├── favqs_api_base_request.py
 │   ├── favqs_api_post_request.py
 │   └── favqs_api_put_request.py
@@ -49,19 +49,6 @@ Or run with verbose output:
 ```bash
 python -m unittest favqs_api.tests.test_user_management -v
 ```
-
-## Tests
-
-### Test 1: Create User and Retrieve User Information
-- Creates a new user via API
-- Retrieves user information using PUT /api/users/:login
-- Verifies that login and email fields match
-
-### Test 2: Update User
-- Creates a user
-- Updates user login and email
-- Retrieves updated user information
-- Verifies that updated fields match expected values
 
 ## Requirements
 
