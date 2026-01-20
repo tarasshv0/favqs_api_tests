@@ -3,7 +3,7 @@ import unittest
 from api.favqs_api_post_request import CreateUser
 from api.favqs_api_put_request import GetUserInfo, UpdateUser
 
-from base_tc import BaseTC
+from tests.base_tc import BaseTC
 
 
 class FavQsUserTests(BaseTC):

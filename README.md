@@ -42,12 +42,12 @@ set FAVQS_API_KEY=your_api_key_here
 
 Run tests using unittest:
 ```bash
-python -m unittest favqs_api.tests.test_user_management
+python -m unittest tests.test_user_managemen
 ```
 
 Or run with verbose output:
 ```bash
-python -m unittest favqs_api.tests.test_user_management -v
+python -m unittest tests.test_user_management -v
 ```
 
 ## Requirements
